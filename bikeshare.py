@@ -205,7 +205,8 @@ def main():
             start+=5
             end+=5
             
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input(
+            '\nWould you like to restart and lookup  bikeshare data in another city? Enter yes or no.\n')
         restart = restart.lower()
         while((restart != 'yes') and (restart !='no')):
             restart=input('\nPlease enter available input: ')
